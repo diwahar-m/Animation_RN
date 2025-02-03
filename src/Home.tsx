@@ -13,7 +13,12 @@ const INITIAL_DATA = [
         id: 1, 
         title: 'Basic Animation Demo', 
         screen: 'BasicAnimation'
-    }
+    },
+    {
+        id: 2, 
+        title: 'Interpolation Demo', 
+        screen: 'InterpolationDemo'
+    },
 ]
 
 const Home: React.FC<Prop> =({navigation}) => {
