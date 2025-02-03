@@ -18,7 +18,6 @@ const INITIAL_DATA = [
 
 const Home: React.FC<Prop> =({navigation}) => {
 
-
     const handleRenderItem =({item}: {item: {id: string, title: string, screen: string}}) => {
         return <TouchableOpacity style={styles.item} onPress={()=> navigation.navigate(item.screen as keyof RootStackParamsList)}>
                 <Text style={styles.itemTxt}>{item.title}</Text>
@@ -31,7 +30,6 @@ const Home: React.FC<Prop> =({navigation}) => {
             data={INITIAL_DATA}
             renderItem={handleRenderItem}
         />
-
        </View>
     )
 }
@@ -58,7 +56,6 @@ const styles =  StyleSheet.create({
         fontSize: 18, 
         fontWeight: 'bold'
     }
-
 })
 
 export default Home
