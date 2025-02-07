@@ -33,7 +33,6 @@ const Interpolation = () => {
         outputRange: [4, 100]
     })
 
-
     return <View style={styles.container}>
         <Text style={styles.headerText}>Interpolation Demo</Text>
         <Animated.View style={

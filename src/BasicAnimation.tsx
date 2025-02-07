@@ -12,8 +12,8 @@ const BasicAnimation =() => {
 
     const handleFadeIn = ()=> {
         Animated.timing(fadeAnim, {
-            toValue : 1, 
-            duration: 2000, 
+            toValue : 1,
+            duration: 2000,
             useNativeDriver: true
         }).start()
     }
@@ -134,7 +134,6 @@ const BasicAnimation =() => {
                 }]}]}></Animated.View>
                 <Button title="Bounce" onPress={handleBounce}/>
             </View>
-
         </ScrollView>
     )
 }

@@ -29,6 +29,11 @@ const INITIAL_DATA = [
         title: 'Gesture Animation Demo', 
         screen: 'GestureAnimation'
     },
+    {
+        id: 5, 
+        title: 'ReanimatedCoreConcepts', 
+        screen: 'ReanimatedCoreConcepts'
+    },
 ]
 
 const Home: React.FC<Prop> =({navigation}) => {
