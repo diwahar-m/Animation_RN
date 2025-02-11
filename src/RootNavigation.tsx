@@ -5,6 +5,7 @@ import Interpolation from "./Interpolation"
 import CombinedAnimation from "./CombinedAnimation"
 import GestureAnimation from "./GestureAnimation"
 import ReanimatedCoreConcepts from "./ReanimatedCoreConcepts"
+import ReanimatedAnimationTypes from "./reanimated/ReanimatedAnimationTypes"
 
 export type RootStackParamsList = {
     Home: undefined 
@@ -13,6 +14,7 @@ export type RootStackParamsList = {
     CombinedAnimation: undefined
     GestureAnimation: undefined
     ReanimatedCoreConcepts: undefined
+    ReanimatedAnimationTypes:undefined
 }
 
 const Stack = createStackNavigator<RootStackParamsList>()
@@ -28,6 +30,7 @@ const RootNavigator =() => {
             <Stack.Screen name="CombinedAnimation" component={CombinedAnimation} />
             <Stack.Screen name="GestureAnimation" component={GestureAnimation} />
             <Stack.Screen name="ReanimatedCoreConcepts" component={ReanimatedCoreConcepts} />
+            <Stack.Screen name="ReanimatedAnimationTypes" component={ReanimatedAnimationTypes} />
         </Stack.Navigator>
     )
 }

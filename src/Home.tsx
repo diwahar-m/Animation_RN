@@ -11,28 +11,33 @@ type Prop= {
 const INITIAL_DATA = [
     {
         id: 1, 
-        title: 'Basic Animation Demo', 
+        title: 'Basic Animation Demo',
         screen: 'BasicAnimation'
     },
     {
         id: 2, 
-        title: 'Interpolation Demo', 
+        title: 'Interpolation Demo',
         screen: 'InterpolationDemo'
     },
     {
         id: 3, 
-        title: 'Combined Animation Demo', 
+        title: 'Combined Animation Demo',
         screen: 'CombinedAnimation'
     },
     {
         id: 4, 
-        title: 'Gesture Animation Demo', 
+        title: 'Gesture Animation Demo',
         screen: 'GestureAnimation'
     },
     {
         id: 5, 
-        title: 'ReanimatedCoreConcepts', 
+        title: 'ReanimatedCoreConcepts',
         screen: 'ReanimatedCoreConcepts'
+    },
+    {
+        id: 6,
+        title: 'ReanimatedAnimationTypes',
+        screen: 'ReanimatedAnimationTypes'
     },
 ]
 
@@ -56,22 +61,22 @@ const Home: React.FC<Prop> =({navigation}) => {
 
 const styles =  StyleSheet.create({
     container: {
-        flex: 1, 
+        flex: 1,
         padding:10
-    }, 
+    },
     headerText: {
-        fontSize: 16, 
+        fontSize: 16,
         fontWeight: 'bold'
-    }, 
+    },
     item: {
-        paddingVertical: 8, 
-        paddingHorizontal: 10, 
-        backgroundColor: '#ddd', 
+        paddingVertical: 8,
+        paddingHorizontal: 10,
+        backgroundColor: '#ddd',
         borderBottomWidth: 1, 
         borderBlockColor: '#cdf',
-        marginBottom: 20, 
+        marginBottom: 20,
         borderRadius: 8
-    }, 
+    },
     itemTxt: {
         fontSize: 18, 
         fontWeight: 'bold'
