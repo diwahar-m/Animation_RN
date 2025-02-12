@@ -39,6 +39,16 @@ const INITIAL_DATA = [
         title: 'ReanimatedAnimationTypes',
         screen: 'ReanimatedAnimationTypes'
     },
+    {
+        id: 7,
+        title: 'ReanimatedGuestures',
+        screen: 'ReanimatedGuestures'
+    },
+    {
+        id: 8,
+        title: 'ReanimatedFormValidation',
+        screen: 'ReanimatedFormValidation'
+    },
 ]
 
 const Home: React.FC<Prop> =({navigation}) => {
